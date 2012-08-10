@@ -18,7 +18,7 @@ The program needs a input file with the database definitions, with the following
 }
 ----
 
-Usage: python ddd11.py input_file
+Usage: `python ddd11.py input_file`
 
 For more information about the process see http://www.anatel.gov.br/Portal/verificaDocumentos/documento.asp?numeroPublicacao=255193&assuntoPublicacao=null&caminhoRel=Cidadao-Biblioteca-Acervo%20Documental&filtro=1&documentoPath=255193.pdf[Anatel].
 
