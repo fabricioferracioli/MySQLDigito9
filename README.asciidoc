@@ -5,7 +5,6 @@ This script inserts the 9th digit in mobile phones numbers from the brazilian ar
 By default, the numbers can be in two formats, (11)xxxx-xxxx or (11) xxxx-xxxx.
 The program needs a input file with the database definitions, with the following format:
 
-[source,python]
 ----
 {
   'host':'foo',
