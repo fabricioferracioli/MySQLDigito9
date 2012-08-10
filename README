@@ -1,6 +1,8 @@
+#MySQLDigito9
+
 This script inserts the 9th digit in mobile phones numbers from the brazilian area with DDD 11 stored in mysql databases.
 By default, the numbers can be in two formats, (11)xxxx-xxxx or (11) xxxx-xxxx.
-The program needs as input one file with the database definitions, with the following format:
+The program needs a input file with the database definitions, with the following format:
 
 {
   'host':'foo',
@@ -15,11 +17,9 @@ The program needs as input one file with the database definitions, with the foll
 
 Usage: python ddd11.py input_file
 
-Important: Use at your own risk!
+For more information about the process see [Anatel](http://www.anatel.gov.br/Portal/verificaDocumentos/documento.asp?numeroPublicacao=255193&assuntoPublicacao=null&caminhoRel=Cidadao-Biblioteca-Acervo%20Documental&filtro=1&documentoPath=255193.pdf).
 
-For more information about the process see: http://www.anatel.gov.br/Portal/verificaDocumentos/documento.asp?numeroPublicacao=255193&assuntoPublicacao=null&caminhoRel=Cidadao-Biblioteca-Acervo%20Documental&filtro=1&documentoPath=255193.pdf 
-
-License
+##License
 
 This software if freely distributable under the terms of the MIT license.
 
@@ -30,4 +30,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
