@@ -1,9 +1,11 @@
-#MySQLDigito9
+==MySQLDigito9
 
 This script inserts the 9th digit in mobile phones numbers from the brazilian area with DDD 11 stored in mysql databases.
 By default, the numbers can be in two formats, (11)xxxx-xxxx or (11) xxxx-xxxx.
 The program needs a input file with the database definitions, with the following format:
 
+[source,python]
+----
 {
   'host':'foo',
   'database':'bar',
@@ -14,12 +16,13 @@ The program needs a input file with the database definitions, with the following
     'table_n':['update_field_1', 'update_field_2', 'update_field_n']
   }
 }
+----
 
 Usage: python ddd11.py input_file
 
-For more information about the process see [Anatel](http://www.anatel.gov.br/Portal/verificaDocumentos/documento.asp?numeroPublicacao=255193&assuntoPublicacao=null&caminhoRel=Cidadao-Biblioteca-Acervo%20Documental&filtro=1&documentoPath=255193.pdf).
+For more information about the process see http://www.anatel.gov.br/Portal/verificaDocumentos/documento.asp?numeroPublicacao=255193&assuntoPublicacao=null&caminhoRel=Cidadao-Biblioteca-Acervo%20Documental&filtro=1&documentoPath=255193.pdf[Anatel].
 
-##License
+===License
 
 This software if freely distributable under the terms of the MIT license.
 
